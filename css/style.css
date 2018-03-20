@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  box-sizing: border-box; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.gdglogo {
+  width: 8rem; }
+
+nav {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%; }
+  nav div {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    margin: 0 auto; }
+    nav div div {
+      flex: 3; }
+    nav div ul {
+      height: inherit;
+      align-items: center;
+      display: flex;
+      flex: 1; }
+      nav div ul a {
+        height: 100%; }
+        nav div ul a:hover {
+          border-bottom: 3px solid #4285F4;
+          transition: 0.1s; }
+      nav div ul li {
+        padding: 0 50px;
+        font-size: 20px;
+        margin-top: 30px;
+        font-family: "Roboto", sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
