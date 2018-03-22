@@ -1,4 +1,33 @@
-#eventos
-    height: 900px
+.eventsContainer
     background-color: $Gblue
-    padding: 170px 0
+    padding: 150px 0
+    text-align: center
+    h1
+        font-family: Roboto, sans-seriff
+        font-size: 40px
+        color: white
+        margin-bottom: 40px
+    .events-content
+        width: 80%
+        margin: 0 auto
+        padding: 20px 0
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        align-items: center
+        .event1, .event2, .event3
+            width: 300px
+            background-size: 450px
+            background-repeat: no-repeat
+            height: 300px
+            margin: 20px
+            border-radius: 50%
+            overflow: hidden
+            transition: .1s
+            border: 7px solid white
+            &:hover
+                box-shadow: 0 14px 28px rgba(0,0,0,.4)
+                cursor: pointer
+            img
+                width: 100%
+        
