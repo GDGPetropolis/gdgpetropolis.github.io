@@ -14,7 +14,7 @@ a {
   color: black; }
 
 .gdglogo {
-  width: 8rem; }
+  width: 6rem; }
 
 nav {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -41,21 +41,21 @@ nav {
       nav div ul li {
         padding: 0 50px;
         font-size: 20px;
-        margin-top: 30px;
+        margin-top: 20px;
         font-family: "Roboto", sans-serif; }
 
-#header {
+.headerContainer {
   background-image: url("../img/background.jpg");
   background-size: cover;
-  margin-top: 90px;
+  margin-top: 65px;
   background-position: center; }
-  #header .op {
+  .headerContainer .op {
     height: inherit;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.4); }
-    #header .op .header-content {
+    .headerContainer .op .header-content {
       height: 400px;
       width: 800px;
       border-radius: 15px;
@@ -63,17 +63,48 @@ nav {
       justify-content: center;
       flex-wrap: wrap;
       align-items: center;
-      margin: 100px 0 150px 0; }
-      #header .op .header-content img {
+      margin: 150px 0 220px 0; }
+      .headerContainer .op .header-content img {
         width: 340px; }
-      #header .op .header-content h1 {
+      .headerContainer .op .header-content h1 {
         font-family: Roboto;
         font-size: 34px;
         color: white; }
 
-#eventos {
-  height: 900px;
+.eventsContainer {
   background-color: #4285F4;
-  padding: 170px 0; }
+  padding: 150px 0;
+  text-align: center; }
+  .eventsContainer h1 {
+    font-family: Roboto, sans-seriff;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px; }
+  .eventsContainer .events-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .eventsContainer .events-content .event1, .eventsContainer .events-content .event2, .eventsContainer .events-content .event3 {
+      width: 300px;
+      background-size: 450px;
+      background-repeat: no-repeat;
+      height: 300px;
+      margin: 20px;
+      border-radius: 50%;
+      overflow: hidden;
+      transition: 0.1s;
+      border: 7px solid white; }
+      .eventsContainer .events-content .event1:hover, .eventsContainer .events-content .event2:hover, .eventsContainer .events-content .event3:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4);
+        cursor: pointer; }
+      .eventsContainer .events-content .event1 img, .eventsContainer .events-content .event2 img, .eventsContainer .events-content .event3 img {
+        width: 100%; }
+
+#colaboradores {
+  height: 600px; }
 
 /*# sourceMappingURL=style.css.map */

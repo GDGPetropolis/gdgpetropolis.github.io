@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <link rel="shortcut icon" href="https://developers.google.com/_static/748d82c5d5/images/favicon.png">
-    <script src="js/script.js"></script>
     <title>GDG Petrópolis</title>
 </head>
 <body>
@@ -18,14 +16,14 @@
             <div>
                 <a href="http://www.gdgpetropolis.com.br"><img class="gdglogo" src="img/gdglogo.png" /></a>
             </div>
-            <ul>
-                <a href="#header"><li> Inicio </li></a>
-                <a href="#eventos"><li> Eventos </li> </a>
-                <a href="#"><li> Colaboradores </li></a>
+            <ul id="navbar">
+                <a class="a1" href="#header"><li> Inicio </li></a>
+                <a class="a2" href="#eventos"><li> Eventos </li> </a>
+                <a class="a3" href="#colaboradores"><li> Colaboradores </li></a>
             </ul>
         </div>
     </nav>
-    <header id="header">
+    <header id="header" class="headerContainer">
         <div class="op">
             <div class="header-content"> 
                 <img src="img/gdgicon.png" />
@@ -33,15 +31,25 @@
             </div>
         </div>
     </header>
-    <section id="eventos">
+    <section id="eventos" class="eventsContainer">
+        <h1> Eventos Anteriores </h1>
         <div class="events-content">
             <div class="event1">
-
+                <img src="img/evento1.jpg" />
             </div>
             <div class="event2">
-                
+                <img src="img/evento2.jpg" />
+            </div>
+            <div class="event3">
+                <img src="img/evento3.jpg" />
             </div>
         </div>
     </section>
+    <section id="colaboradores">
+
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
