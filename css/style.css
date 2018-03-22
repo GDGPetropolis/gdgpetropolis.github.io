@@ -13,11 +13,32 @@ a {
   text-decoration: none;
   color: black; }
 
+.title {
+  font-family: Roboto, sans-seriff;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 40px; }
+
+.black {
+  color: #4285F4; }
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.section {
+  padding: 100px 0 150px 0;
+  text-align: center; }
+
 .gdglogo {
   width: 6rem; }
 
 nav {
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 100px 5px rgba(0, 0, 0, 0.7);
   background-color: white;
   position: fixed;
   width: 100%; }
@@ -39,7 +60,7 @@ nav {
           border-bottom: 3px solid #4285F4;
           transition: 0.1s; }
       nav div ul li {
-        padding: 0 50px;
+        padding: 0 2vw;
         font-size: 20px;
         margin-top: 20px;
         font-family: "Roboto", sans-serif; }
@@ -71,40 +92,47 @@ nav {
         font-size: 34px;
         color: white; }
 
-.eventsContainer {
-  background-color: #4285F4;
-  padding: 150px 0;
-  text-align: center; }
-  .eventsContainer h1 {
-    font-family: Roboto, sans-seriff;
-    font-size: 40px;
-    color: white;
-    margin-bottom: 40px; }
-  .eventsContainer .events-content {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-    .eventsContainer .events-content .event1, .eventsContainer .events-content .event2, .eventsContainer .events-content .event3 {
-      width: 300px;
-      background-size: 450px;
-      background-repeat: no-repeat;
-      height: 300px;
-      margin: 20px;
-      border-radius: 50%;
-      overflow: hidden;
-      transition: 0.1s;
-      border: 7px solid white; }
-      .eventsContainer .events-content .event1:hover, .eventsContainer .events-content .event2:hover, .eventsContainer .events-content .event3:hover {
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4);
-        cursor: pointer; }
-      .eventsContainer .events-content .event1 img, .eventsContainer .events-content .event2 img, .eventsContainer .events-content .event3 img {
-        width: 100%; }
+.eventsContainer h1 {
+  color: #4285F4; }
+.eventsContainer .events {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .eventsContainer .events .event1, .eventsContainer .events .event2, .eventsContainer .events .event3 {
+    width: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.1s;
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.4); }
+    .eventsContainer .events .event1:hover, .eventsContainer .events .event2:hover, .eventsContainer .events .event3:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4);
+      cursor: pointer; }
+    .eventsContainer .events .event1 img, .eventsContainer .events .event2 img, .eventsContainer .events .event3 img {
+      width: 100%; }
 
-#colaboradores {
-  height: 600px; }
+.colaboradoresContainer {
+  background-color: #4285F4;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .colaboradoresContainer div p {
+    font-size: 20px;
+    color: black;
+    font-family: Roboto, sans-seriff; }
+  .colaboradoresContainer div .img {
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px; }
+    .colaboradoresContainer div .img:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4); }
+  .colaboradoresContainer div .icons {
+    padding: 0 5px; }
+
+.contatoContainer {
+  background-color: #4285F4; }
 
 /*# sourceMappingURL=style.css.map */
