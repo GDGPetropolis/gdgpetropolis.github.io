@@ -1,0 +1,28 @@
+.eventsContainer
+    h1
+        color: $Gblue
+    .events
+        padding: 20px 0
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-wrap: wrap
+        .event1, .event2, .event3
+            width: 300px
+            background-repeat: no-repeat
+            height: 300px
+            margin: 20px
+            border-radius: 50%
+            overflow: hidden
+            transition: .1s
+            box-shadow: 0 7px 14px rgba(0,0,0,.4)
+            @media (max-width: 768px)
+                width: 200px
+                height: 200px
+            &:hover
+                box-shadow: 0 14px 28px rgba(0,0,0,.4)
+                cursor: pointer
+                
+            img
+                width: 100%
+        
