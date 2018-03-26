@@ -1,10 +1,12 @@
 .gdglogo
     width: 6rem
+    @media (max-width: 768px)
 nav
     box-shadow: 0 0 100px 5px rgba(0,0,0,.7)
     background-color: white
     position: fixed
     width: 100%
+    display: flex
     div
         width: 80%
         height: inherit
@@ -17,6 +19,8 @@ nav
             align-items: center
             display: flex
             flex: 1
+            @media (max-width: 768px)
+                display: none
             a
                 height: 100%
                 &:hover
@@ -27,5 +31,4 @@ nav
                 padding: 0 2vw
                 font-size: 20px
                 margin-top: 20px
-                font-family: 'Roboto', sans-serif
-                
+    

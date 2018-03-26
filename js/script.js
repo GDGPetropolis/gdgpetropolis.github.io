@@ -1,10 +1,20 @@
-var btn = document.getElementById('a2');
-
-btn.addEventListener("click", function() {
-  var i = 10;
-  var int = setInterval(function() {
-    window.scrollTo(0, i);
-    i += 10;
-    if (i >= 200) clearInterval(int);
-  }, 20);
-})
+$(".a1").click(function() {
+  $('html, body').animate({
+    scrollTop: $(".headerContainer").offset().top
+  }, 1000);
+});
+$(".a2").click(function() {
+  $('html, body').animate({
+    scrollTop: $(".eventsContainer").offset().top
+  }, 1000);
+});
+$(".a3").click(function() {
+  $('html, body').animate({
+    scrollTop: $(".coordenadoresContainer").offset().top
+  }, 1000);
+});
+$(".a4").click(function() {
+  $('html, body').animate({
+    scrollTop: $(".contatoContainer").offset().top
+  }, 1000);
+});

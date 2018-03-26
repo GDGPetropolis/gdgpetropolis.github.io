@@ -8,6 +8,7 @@ $Gblue: #4285F4
     top: 0
     left: 0
     box-sizing: border-box
+    font-family: Roboto,sans-seriff
 li 
     list-style: none
 
@@ -15,12 +16,14 @@ a
     text-decoration: none
     color: black
 .title
-    font-family: Roboto, sans-seriff
     font-size: 40px
     color: white
     margin-bottom: 40px
+    font-variant: small-caps
+    @media (max-width: 768px)
+        font-size: 34px
 .black
-    color: $Gblue
+    color: white
 .content
     width: 80%
     margin: 0 auto
@@ -31,3 +34,5 @@ a
 .section
     padding: 100px 0 150px 0
     text-align: center
+.m
+    color: rgba(241,58,89,1)
