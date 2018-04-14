@@ -7,6 +7,9 @@
   box-sizing: border-box;
   font-family: Roboto, sans-seriff; }
 
+body {
+  cursor: context-menu; }
+
 li {
   list-style: none; }
 
@@ -18,6 +21,8 @@ a {
   font-size: 40px;
   color: white;
   margin-bottom: 40px;
+  width: 700px;
+  margin: 0 auto;
   font-variant: small-caps; }
   @media (max-width: 768px) {
     .title {
@@ -69,7 +74,9 @@ nav {
         height: 100%; }
         nav div ul a:hover {
           border-bottom: 3px solid #4285F4;
-          transition: 0.1s; }
+          transition: 0.1s;
+          font-weight: 700;
+          color: #4285F4; }
       nav div ul li {
         padding: 0 2vw;
         font-size: 20px;
@@ -146,8 +153,6 @@ nav {
       width: 250px;
       border-radius: 50%;
       margin: 20px; }
-      .coordenadores div .img:hover {
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4); }
       @media (max-width: 768px) {
         .coordenadores div .img {
           width: 100px; } }
