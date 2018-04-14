@@ -7,6 +7,9 @@
   box-sizing: border-box;
   font-family: Roboto, sans-seriff; }
 
+body {
+  cursor: context-menu; }
+
 li {
   list-style: none; }
 
@@ -69,7 +72,9 @@ nav {
         height: 100%; }
         nav div ul a:hover {
           border-bottom: 3px solid #4285F4;
-          transition: 0.1s; }
+          transition: 0.1s;
+          font-weight: 700;
+          color: #4285F4; }
       nav div ul li {
         padding: 0 2vw;
         font-size: 20px;
