@@ -21,8 +21,6 @@ a {
   font-size: 40px;
   color: white;
   margin-bottom: 40px;
-  width: 700px;
-  margin: 0 auto;
   font-variant: small-caps; }
   @media (max-width: 768px) {
     .title {
@@ -153,6 +151,8 @@ nav {
       width: 250px;
       border-radius: 50%;
       margin: 20px; }
+      .coordenadores div .img:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4); }
       @media (max-width: 768px) {
         .coordenadores div .img {
           width: 100px; } }
