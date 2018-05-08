@@ -118,7 +118,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
-  .eventsContainer .events .event1, .eventsContainer .events .event2, .eventsContainer .events .event3 {
+  .eventsContainer .events .event1, .eventsContainer .events .event2, .eventsContainer .events .event3, .eventsContainer .events .event4 {
     width: 300px;
     background-repeat: no-repeat;
     height: 300px;
@@ -128,13 +128,13 @@ nav {
     transition: 0.1s;
     box-shadow: 0 7px 14px rgba(0, 0, 0, 0.4); }
     @media (max-width: 768px) {
-      .eventsContainer .events .event1, .eventsContainer .events .event2, .eventsContainer .events .event3 {
+      .eventsContainer .events .event1, .eventsContainer .events .event2, .eventsContainer .events .event3, .eventsContainer .events .event4 {
         width: 200px;
         height: 200px; } }
-    .eventsContainer .events .event1:hover, .eventsContainer .events .event2:hover, .eventsContainer .events .event3:hover {
+    .eventsContainer .events .event1:hover, .eventsContainer .events .event2:hover, .eventsContainer .events .event3:hover, .eventsContainer .events .event4:hover {
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4);
       cursor: pointer; }
-    .eventsContainer .events .event1 img, .eventsContainer .events .event2 img, .eventsContainer .events .event3 img {
+    .eventsContainer .events .event1 img, .eventsContainer .events .event2 img, .eventsContainer .events .event3 img, .eventsContainer .events .event4 img {
       width: 100%; }
 
 .coordenadores {
