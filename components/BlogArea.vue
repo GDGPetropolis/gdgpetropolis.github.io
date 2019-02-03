@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <main-title v-bind:title="title"/>
+                <main-title class="text-centered" v-bind:title="title"/>
                 <new/>
             </div>
         </div>

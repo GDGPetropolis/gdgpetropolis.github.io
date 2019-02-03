@@ -36,5 +36,7 @@ export default {
 </script>
 
 <style>
-
+.text-centered {
+    text-align: center;
+}
 </style>
