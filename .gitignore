@@ -4,6 +4,11 @@
 
 ### Vuejs ###
 node_modules
+node_modules/
+node_modules/*
+.nuxt
+.nuxt/
+.nuxt/*
 .DS_Store
 docs/_book
 test/
