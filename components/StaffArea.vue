@@ -27,7 +27,5 @@ export default {
 </script>
 
 <style scoped>
-div {
-    border: solid red 1px;
-}
+
 </style>
