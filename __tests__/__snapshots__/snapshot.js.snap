@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<h1
+  className="SmokeTest__Title-sc-6xylpv-0 iQgMIS"
+>
+  carregando
+</h1>
+`;
