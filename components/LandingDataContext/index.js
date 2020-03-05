@@ -8,12 +8,12 @@ const LandingDataProvider = props => {
   const [state, setState] = useState({
     stateTeste: "Hello",
     Landings: [],
-    events: [{}]
+    events: []
   });
 
   useEffect(() => {
     callMeetUpApi().then(response => {
-      setState({ ...state, events: response.data.results });
+      setState({ ...state, events: response.data });
     });
   }, []);
 
