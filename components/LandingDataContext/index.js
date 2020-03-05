@@ -13,7 +13,7 @@ const LandingDataProvider = props => {
 
   useEffect(() => {
     callMeetUpApi().then(response => {
-      setState({ ...state, events: response.data.results });
+      setState({ ...state, events: response.data});
     });
   }, []);
 
