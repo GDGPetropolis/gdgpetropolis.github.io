@@ -8,6 +8,7 @@ export default function index() {
 
   return (
     <div>
+      <button onClick={() => meetUp()}>teste</button>
       {JSON.stringify(events)}
     </div>
   );
