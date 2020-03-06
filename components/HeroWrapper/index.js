@@ -102,8 +102,15 @@ export default function index() {
             mulheres na área de tecnologia.
           </p>
           <ActionsWrapper>
-            <a href="#">Confirmar Presença</a>
-            <a href="#">Call for papers</a>
+            <a
+              target="_blank"
+              href="https://www.meetup.com/pt-BR/GDGPetropolis/events/269237636/"
+            >
+              Confirmar Presença
+            </a>
+            <a target="_blank" href="https://forms.gle/FYH7aYNKBw884Ggq8">
+              Call for papers
+            </a>
           </ActionsWrapper>
         </CaptionSafeArea>
       </CaptionHolder>

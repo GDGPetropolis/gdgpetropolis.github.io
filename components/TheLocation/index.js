@@ -98,7 +98,7 @@ export default function index() {
       <EventTitle>
         <small>Localização</small>
         <h2>Universidade Católica de Petrópolis</h2>
-        <DataLabel>25/04 de 14h ás 19h</DataLabel>
+        <DataLabel>25/04 de 13h ás 17h</DataLabel>
       </EventTitle>
       <CircleHolder>
         <CircleIcon />

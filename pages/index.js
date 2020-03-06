@@ -1,13 +1,23 @@
 import React from "react";
-import MainMenu from "../components/MainMenu";
-import MainFooter from "../components/MainFooter";
-import EventMeetUp from "../components/EventMeetUp";
+import { Result } from "antd";
+import styled from "styled-components";
+
+const MainContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+`;
 
 export default () => {
   return (
-    <>
-      <EventMeetUp />
-      <MainFooter />
-    </>
+    <MainContainer>
+      <Result
+        status="403"
+        title="Página em Construção"
+        subTitle="Estamos atualizando essa página, volte novamente mais tarde"
+      />
+    </MainContainer>
   );
 };

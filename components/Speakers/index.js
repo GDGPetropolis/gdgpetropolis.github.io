@@ -83,7 +83,9 @@ export default function index() {
           tema na área de tecnologia e(ou) empoderamento feminino no mercado de
           trabalho.
         </p>
-        <a href="#">Quero ser uma Palestrante</a>
+        <a target="_blank" href="https://forms.gle/FYH7aYNKBw884Ggq8">
+          Quero ser uma Palestrante
+        </a>
       </Call4Papers>
     </EventDescriptionContainer>
   );
