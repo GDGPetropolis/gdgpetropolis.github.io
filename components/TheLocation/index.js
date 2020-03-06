@@ -92,12 +92,12 @@ export default function index() {
       <MapHolder>
         <iframe
           frameBorder="0"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.920782057943!2d-43.16994208447297!3d-22.507155185216572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99a80775793707%3A0xaf669ccc3f450ddf!2sUniversidade%20Cat%C3%B3lica%20de%20Petr%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1583117379639!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117969.2933759815!2d-43.25299756813931!3d-22.48389847289471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99007e82d9236f%3A0xa9241871d369007a!2sPetr%C3%B3polis%20-%20Cascatinha%2C%20Petr%C3%B3polis%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1583525172381!5m2!1spt-BR!2sbr"
         ></iframe>
       </MapHolder>
       <EventTitle>
         <small>Localização</small>
-        <h2>Universidade Católica de Petrópolis</h2>
+        <h2>Á Confirmar</h2>
         <DataLabel>25/04 de 13h ás 17h</DataLabel>
       </EventTitle>
       <CircleHolder>
