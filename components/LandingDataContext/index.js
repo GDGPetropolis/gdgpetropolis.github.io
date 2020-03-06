@@ -12,8 +12,10 @@ const LandingDataProvider = props => {
   });
 
   useEffect(() => {
-    callMeetUpApi().then(response => {
-      setState({ ...state, events: response.data });
+    callMeetUpApi('future_or_past', '5').then(response => {
+      let eventMeet = [];
+      eventMeet = response.data.slice(0).reverse();
+      setState({ ...state, events: eventMeet});
     });
   }, []);
 

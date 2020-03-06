@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { LandingDataContext } from "../components/LandingDataContext";
 
-const useMeetUpEvents = () => {
+const useMeetUpEvents = (props) => {
   // Desconstruct state from context
   const [state, setState] = useContext(LandingDataContext);
 

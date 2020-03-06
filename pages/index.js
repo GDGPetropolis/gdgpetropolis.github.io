@@ -6,7 +6,6 @@ import EventMeetUp from "../components/EventMeetUp";
 export default () => {
   return (
     <>
-      <MainMenu />
       <EventMeetUp />
       <MainFooter />
     </>
