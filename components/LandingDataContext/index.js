@@ -12,11 +12,19 @@ const LandingDataProvider = props => {
   });
 
   useEffect(() => {
-    callMeetUpApi('future_or_past', '5').then(response => {
-      let eventMeet = [];
+    let eventMeet = []
+    callMeetUpApi('scroll=future_or_past', '3').then(response => {
       eventMeet = response.data.slice(0).reverse();
       setState({ ...state, events: eventMeet});
-    });
+    })
+    if(eventMeet.length < 3){
+      callMeetUpApi('status=past', '2', '&desc=true').then(response => {
+        for(var n in response.data){
+          eventMeet.push(response.data[n]);
+        }
+        setState({ ...state, events: eventMeet});
+      })
+    }
   }, []);
 
   return (

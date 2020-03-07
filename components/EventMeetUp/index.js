@@ -34,16 +34,23 @@ export default function index(props) {
             <Calendar status='grayscale(100%)' statusBack='#bfbfbf'>
               <ImgEvent imgEvents={element} />
               <InfoEvent information={element} />
-              <LinkEvent information={element} />
+              <LinkEvent informationLink={element} />
             </Calendar> 
           )} else if(element.status === 'upcoming') {
-            <Calendar status='grayscale(0%)' statusBack='white'>
+            return(
+              <Calendar status='grayscale(0%)' statusBack='white'>
               <ImgEvent imgEvents={element} />
               <InfoEvent information={element} />
-              <LinkEvent information={element} />
+              <LinkEvent informationLink={element} />
             </Calendar> 
+            )
           }
-        }) : 'Carregando'
+        }) :
+            <Calendar status='grayscale(100%)' statusBack='#bfbfbf'>
+            <ImgEvent imgEvents={''} />
+            <InfoEvent information={''} />
+            <LinkEvent informationLink={''} />
+            </Calendar>
     }
     </div>
   )

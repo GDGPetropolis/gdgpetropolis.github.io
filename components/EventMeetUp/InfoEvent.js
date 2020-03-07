@@ -31,13 +31,14 @@ a:hover {
       <p>Endereço: {information.venue.address_1}</p>*/
 
 export default function InfoEvent(props) {
-  let eventDate = props.information.local_date.split('-').reverse().join('/');
+  let eventDate = props.information ? props.information.local_date.split('-').reverse().join('/') : ' ';
+  let adress = props.information.venue ? props.information.venue.address_1 : 'petrópolis';
   return (
     <Info>
-      <h2>{props.information.name}</h2>
-      <h4>{eventDate} | {`\u{231A}`} {props.information.local_time}</h4>
-      <p>Confirmados: {props.information.yes_rsvp_count} {`\u{1F44A}`}</p>
-      <p><a href={'https://www.google.com/maps/search/'+props.information.venue.address_1} target='_blank'>Local: {props.information.venue.name}</a></p>
+      <h2>{props.information.name ? props.information.name : 'Nome do evento'}</h2>
+      <h4>{eventDate ? eventDate : 'DD/MM/YYYY'} | {`\u{231A}`} {props.information.local_time ? props.information.local_time : 'hr'}</h4>
+      <p>Confirmados: {props.information.yes_rsvp_count ? props.information.yes_rsvp_count : ' '} {`\u{1F44A}`}</p>
+      <p><a href={'https://www.google.com/maps/search/'+adress} target='_blank'>Local: {props.information.venue ? props.information.venue.name : 'A confirmar!'}</a></p>
     </Info>
   )
 }

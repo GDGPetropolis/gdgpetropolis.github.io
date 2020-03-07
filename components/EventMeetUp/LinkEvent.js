@@ -20,9 +20,16 @@ a:hover {
 `
 
 export default function LinkEvent(props) {
-  return (
+  function changeTxt() {
+    if(props.informationLink.status === 'past') {
+      return('Sobre o evento')} 
+      else if(props.informationLink.status === 'upcoming')
+      { return('Marque sua presença')} 
+  }
+   return (
     <Link>
-      <h4><a href={props.information.link} target='_blank'>Marque Sua Presença!!</a></h4>
+      <h4><a href={props.informationLink ? props.informationLink.link : '#'} target='_blank'>{props.informationLink ? 
+      changeTxt() : ' '}</a></h4>
     </Link>
   )
 }
