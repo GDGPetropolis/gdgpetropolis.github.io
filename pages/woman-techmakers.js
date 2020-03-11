@@ -1,15 +1,15 @@
 import React from "react";
 import HeroWrapper from "../components/HeroWrapper";
-import MainMenu from "../components/MainMenu";
+import { MainMenuEvent } from "../components/MainMenus";
 import EventDescription from "../components/EventDescription";
 import TheLocation from "../components/TheLocation";
 import Speakers from "../components/Speakers";
 import MainFooter from "../components/MainFooter";
 
-export default () => {
+export default (props) => {
   return (
     <>
-      <MainMenu />
+      <MainMenuEvent logoName="/img/logo-wtm.png" />
       <HeroWrapper />
       <EventDescription />
       <TheLocation />
