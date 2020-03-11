@@ -10,6 +10,7 @@
     "export": "NODE_ENV=production next build && next export"
   },
   "dependencies": {
+    "@ant-design/icons-svg": "^4.0.0",
     "@zeit/next-css": "^1.0.1",
     "antd": "^3.9.2",
     "axios": "^0.19.2",

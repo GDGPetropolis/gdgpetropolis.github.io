@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import {txtFooter} from "../Txt";
 
 const MainFooterHolder = styled.div`
   margin: 4% 8%;
@@ -34,12 +35,7 @@ export default function index() {
     <MainFooterHolder>
       <img src="/img/gdg.png" />
       <CopyrightHolder>
-        O Google Developers Group é uma iniciativa de pessoas interessadas em
-        construir com tecnologia e disseminar o conhecimento. Nossos eventos são
-        direcionados para a comunidade de desenvolvedores, engenheiros,
-        designers e empreendedores, organizados pelos nossos membros de forma
-        voluntária e sem fins lucrativos. Encontre outros capítulos do GDG no
-        Brasil no Meetup
+        {txtFooter}
       </CopyrightHolder>
     </MainFooterHolder>
   );
