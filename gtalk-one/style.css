@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    backgorund: #fff;
+    font-family: 'Pragati Narrow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: all 1s ease;
+}
+
+.intro {
+    text-align: center;
+}
+
+.logo {
+    width:500px;
+    padding:20px;
+}
+
+h1 {
+    text-align: center;
+    font-size:34px;
+    color:#5e6571;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    color:#5e6571;
+    font-size:28px;
+}
+
+p { 
+    text-align: center;
+    color:#5e6571;
+    font-size:16px;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:200px;
+}
+
+.box {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height:120px;
+    width:120px;
+    margin:10px;
+    font-size:18px;
+    color:#fff;
+    padding:5px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgb(80, 105, 121);
+}
+
+.box:first-child{
+  background: #ea4335;
+}
+
+.box:nth-child(2){
+  background: #4285f4;
+}
+
+.box:nth-child(3){
+  background: #469d59;
+}
+
+.box:nth-child(4){
+  background: #f7bd45;
+}
+
+.box h2{
+  color: #fff !important;
+}
+.box span {
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff;
+    text-align: center;
+    letter-spacing: 2px;      
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    background-image: url(https://github.com/elshaw82/Primavera-Sound-Countdown/blob/master/images/corey-agopian-5y4ljzRrDFA-unsplash.jpg?raw=true);
+    background-size: cover;
+    /* background-image: linear-gradient(rgb(170,158,158),rgb(93,122,140)); */
+    font-family: 'Pragati Narrow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.logo {
+    width:250px;
+    padding:20px;
+}
+
+h1 {
+    text-align: center;
+    font-size:28px;
+    color:#5e6571;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    color:#5e6571;
+    font-size:18px;
+}
+
+p { 
+    text-align: center;
+    color:#5e6571;
+    font-size: 14px;
+    padding: 0 0 25px 0;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:fit-content;
+}
+
+.box {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height:90px;
+    width:90px;
+    background-color: rgb(27,18,57);
+    margin:5px;
+    font-size:14px;
+    color:#5e6571;
+    padding:5px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgb(80, 105, 121);
+}
+
+.box span {
+    font-size: 12px;
+    font-weight: 400;
+    color:rgb(240,1,242);
+    text-align: center;
+    letter-spacing: 2px;      
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+ 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:100vh;
+    width:100vw;
+}
+
+.logo {
+    width:250px;
+    padding:20px;
+}
+
+h1 {
+    font-size: 21px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+
+.countdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:200px;
+}
+
+}
