@@ -27,7 +27,7 @@ const countdownBox = document.querySelector('.countdown');
 const dateItems = document.querySelectorAll('.box h2');
 
 
-let futureDate = new Date(2020,6,25,18,00,0);
+let futureDate = new Date(2020,9,24,16,40,0);
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
 const date = futureDate.getDate();
