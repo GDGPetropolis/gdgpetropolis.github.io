@@ -75,7 +75,7 @@ function timeRemaining() {
   if(t < 0) {
       clearInterval(countdown);
       // add class to container below to celebrate or extra text
-      window.location.href = "#";
+      window.location.href = "https://www.youtube.com/watch?v=pOZILE3nYAI";
   }
 }
 
